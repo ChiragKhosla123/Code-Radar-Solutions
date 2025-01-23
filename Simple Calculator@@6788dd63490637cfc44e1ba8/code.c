@@ -17,8 +17,13 @@ int main() {
         printf("%d",e);
     }
     else if(operate=="/"){
-        f=a/b;
-        printf("%d",f);
+        if(b!=0){
+            f=a/b;
+            printf("%d",f);
+        }
+        else{
+            printf("error");
+        }
     }
     else{
         printf("error");
