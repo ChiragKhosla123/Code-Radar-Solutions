@@ -10,7 +10,7 @@ int main() {
         printf("First");
     }
     else{
-        printf("Equal")
+        printf("Equal");
     }
     return 0;
 }
