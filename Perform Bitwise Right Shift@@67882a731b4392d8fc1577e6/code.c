@@ -3,6 +3,6 @@
 int main() {
     unsigned int a,b;
     scanf("%d%d",&a,&b);
-    printf("%u", a<<1);
+    printf("%u", b<<2);
     return 0;
 }
