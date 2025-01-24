@@ -9,5 +9,8 @@ int main() {
     else if(a>b){
         printf("First");
     }
+    else{
+        printf("Equal")
+    }
     return 0;
 }
