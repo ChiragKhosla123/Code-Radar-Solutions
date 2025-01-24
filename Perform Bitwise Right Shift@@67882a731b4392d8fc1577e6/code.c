@@ -7,7 +7,7 @@ int main() {
         printf("%u",a>>1);
     }
     else{
-        printf("%u",a>>2)
+        printf("%u",a>>2);
     }
     return 0;
 }
