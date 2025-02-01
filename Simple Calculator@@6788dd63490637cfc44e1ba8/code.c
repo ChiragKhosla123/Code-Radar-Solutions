@@ -8,12 +8,19 @@ int main() {
     switch(c){
         case '+':
         printf("%d",a+b);
+        break;
         case '-':
         printf("%d",a-b);
+        break;
         case '/':
         printf("%d",a/b);
+        break;
         case '*':
         printf("%d",a*b);
+        break;
+        default:
+        printf("error");
+        break;
     }
     return 0;
 }
