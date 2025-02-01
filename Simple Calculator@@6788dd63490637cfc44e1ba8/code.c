@@ -2,21 +2,21 @@
 
 int main() {
     int a,b,c,d,e,f;
-    char operate;
+    char o;
     scanf("%d%d%c",&a,&b,&c);
-    if(operate=="+"){
+    if(o=="+"){
         c=a+b;
         printf("%d",c);
     }
-    else if(operate=="-"){
+    else if(o=="-"){
         d=a-b;
         printf("%d",d);
     }
-    else if(operate=="*"){
+    else if(o=="*"){
         e=a*b;
         printf("%d",e);
     }
-    else if(operate=="/"){
+    else if(o=="/"){
         if(b!=0){
             f=a/b;
             printf("%d",f);
