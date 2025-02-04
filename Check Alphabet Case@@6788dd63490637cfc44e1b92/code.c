@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <cstudio.h>
 int main() {
     char a;
     scanf("%c",&a);
-    if(a==toupper(a)){
+    if('A'<=a<='Z'){
         printf("Uppercase");
     }
     else{
