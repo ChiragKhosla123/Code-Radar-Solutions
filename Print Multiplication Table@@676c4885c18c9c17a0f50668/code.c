@@ -3,9 +3,8 @@
 int main() {
     int n,s;
     scanf("%d",&n);
-    s=1;
     for(int i=1;i<=10;i++){
-        s=s*i;
+        s=n*i;
         printf("%d x %d = %d\n",n,i,s);
     }
     return 0;
