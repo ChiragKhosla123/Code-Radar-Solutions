@@ -3,7 +3,7 @@
 int main() {
     int a[100],b,s=0;
     scanf("%d",&b);
-    for(i=0;i<b;++i){
+    for(int i=0;i<b;++i){
         scanf("%d",&a[i]);
         if(a[i]<s){
             printf("%d ",a[i]);
