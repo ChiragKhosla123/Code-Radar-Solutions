@@ -8,7 +8,7 @@ int main() {
     if(a[i]<s){
         s=a[i];
         }
-    else{
+    else if(a[i]>n){
         n=a[i];
         }
     }
