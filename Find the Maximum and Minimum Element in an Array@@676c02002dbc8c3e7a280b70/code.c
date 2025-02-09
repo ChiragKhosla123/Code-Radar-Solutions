@@ -10,7 +10,7 @@ int main() {
         printf("%d ",s);
         }
     else{
-        printf("%d",s);
+        printf("%d",a[i]);
         }
     }
     return 0;
