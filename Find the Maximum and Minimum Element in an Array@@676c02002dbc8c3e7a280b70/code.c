@@ -3,6 +3,7 @@
 int main() {
     int a[100],b,s,n;
     scanf("%d",&b);
+    scanf("%d", &a[0]);
     s=n=a[0];
     for(int i=1;i<b;++i){
         scanf("%d",&a[i]);
