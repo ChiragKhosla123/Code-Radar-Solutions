@@ -6,10 +6,10 @@ int main() {
     for(int i=0;i<n;++i){
         scanf("%d",&a[i]);
     if(a[i]%2==0){
-        printf("%d ",n);
+        printf("%d ",i);
         }
     else{
-        printf("%d",n);
+        printf("%d",i);
     }
     }
     return 0;
