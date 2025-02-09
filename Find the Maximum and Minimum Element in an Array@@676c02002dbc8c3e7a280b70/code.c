@@ -5,7 +5,8 @@ int main() {
     scanf("%d",&b);
     for(int i=0;i<b;++i){
         scanf("%d",&a[i]);
-    if(a[i]<s[i]){
+    if(a[i]<s){
+        s=a[i];
         printf("%d ",a[i]);
         }
     else{
