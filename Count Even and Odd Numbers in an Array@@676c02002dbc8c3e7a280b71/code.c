@@ -12,7 +12,7 @@ int main() {
             ocount++;
         }
     }
-    printf("%d",ecount);
+    printf("%d ",ecount);
     printf("%d",ocount);
     return 0;
 }
