@@ -7,10 +7,10 @@ int main() {
         scanf("%d",&a[i]);
     if(a[i]<s){
         s=a[i];
-        printf("%d ",a[i]);
+        printf("%d ",s);
         }
     else{
-        printf("%d",a[i]);
+        printf("%d",s);
         }
     }
     return 0;
