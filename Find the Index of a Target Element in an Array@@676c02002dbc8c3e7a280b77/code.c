@@ -7,6 +7,6 @@ int main() {
         scanf("%d",&a[i])
     }
     scanf("%d",&s);
-    printf("%d",s[a]);
+    printf("%d",a[s]);
     return 0;
 }
