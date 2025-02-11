@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main{
+int main{
     int a;
     scanf("%d",&a);
     for(int i=1;i<=a;i++){
@@ -8,4 +8,5 @@ void main{
         }
         printf("\n");
     }
+    return 0;
 }
