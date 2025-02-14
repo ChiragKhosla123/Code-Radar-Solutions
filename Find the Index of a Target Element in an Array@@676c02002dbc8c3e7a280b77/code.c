@@ -7,8 +7,6 @@ int main() {
         scanf("%d",&a[i]);
     }
     scanf("%d",&s);
-     for(int i=0;i<n;++i){
-        printf("%d",g[s]);
-    }
+    printf("%d",g[s]);
     return 0;
 }
