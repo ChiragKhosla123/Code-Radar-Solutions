@@ -3,14 +3,19 @@
 int main() {
     int a,b,c;
     scanf("%d%d%d",&a,&b,&c);
-    if(a==b && b==c){
+    if(a>=0&&b>=0&&c>=0){
+        if(a==b && b==c){
         printf("Equilateral");
     }
-    else if(a==b || b==c){
+        else if(a==b || b==c){
         printf("Isosceles");
     }
-    else{
+        else{
         printf("Scalene");
+    }
+    }
+    else{
+        printf("Invalid");
     }
     return 0;
 }
