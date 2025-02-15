@@ -2,7 +2,7 @@
 #include<ctype.h>
 int main(){
     unsigned int a;
-    scanf("%d",&a);
+    scanf("%u",&a);
     if(a==1){
         printf("Set");
     }
