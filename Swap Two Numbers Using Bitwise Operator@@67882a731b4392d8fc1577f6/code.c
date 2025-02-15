@@ -5,6 +5,6 @@ int main(){
     c=a;
     b=c;
     c=b;
-    printf("%d %d",b,c);
+    printf("%d %d",a,c);
     return 0;
 }
