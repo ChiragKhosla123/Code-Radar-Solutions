@@ -5,6 +5,7 @@ int main() {
     scanf("%u",&a);
     for(int i=1;i<=a;i++){
     printf("%u",i%2);
+    break;
     }
     return 0;
 }
