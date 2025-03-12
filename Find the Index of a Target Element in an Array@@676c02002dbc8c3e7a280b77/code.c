@@ -8,7 +8,7 @@ int main() {
     }
     for(int i=1;i<=n;i++){
         if(a[i]=s){
-         printf("%d",i);
+         printf("%d",a[i]);
         }
     }
     return 0;
