@@ -12,9 +12,9 @@ int main(){
         for(int j=1;j<=n;j++){
             s=0;
         while(0<a[i]){
-        t=a[i]%10;
-        a[i]=a[i]/10;
-        s=s+abs(t);
+        t=abs(a[i])%10;
+        abs(a[i])=abs(a[i])/10;
+        s=s+t;
         }
         printf("%d ",s);
         break;
