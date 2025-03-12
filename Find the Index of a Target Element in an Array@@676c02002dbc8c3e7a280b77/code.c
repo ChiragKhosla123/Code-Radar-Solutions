@@ -10,6 +10,9 @@ int main() {
         if(a[i]==s){
          printf("%d",i);
         }
+        else{
+            printf("-1");
+        }
     }
     return 0;
 }
