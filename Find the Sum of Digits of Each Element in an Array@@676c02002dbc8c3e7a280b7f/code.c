@@ -10,6 +10,6 @@ int main(){
         t[i]=a[i]%10;
         a[i]=a[i]/10;
         s=s+t[i];
-        printf("%d",s);
+        printf("%d ",s);
     }
 }
