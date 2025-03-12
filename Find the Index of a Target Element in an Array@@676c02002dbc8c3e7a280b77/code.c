@@ -7,8 +7,8 @@ int main() {
         scanf("%d",&a[i]);
     }
     for(int i=1;i<=n;i++){
-        if(a[i]=s){
-         printf("%d",a[i]);
+        if(a[i]==s){
+         printf("%d",i);
         }
     }
     return 0;
