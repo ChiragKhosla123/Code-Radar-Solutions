@@ -15,6 +15,7 @@ int main(){
         s=s+t;
         }
         printf("%d ",s);
+        break;
         }
         
     }
