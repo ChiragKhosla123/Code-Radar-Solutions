@@ -8,11 +8,13 @@ int main() {
     }
     for(int i=1;i<=n;i++){
         if(a[i]==s){
-         printf("%d",i);
+            s=a[i];
         }
         else{
             printf("-1");
+            break;
         }
     }
+    printf("%d",s);
     return 0;
 }
