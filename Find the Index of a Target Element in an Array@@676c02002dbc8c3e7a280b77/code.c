@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int n,a[100],s[100]={0};
+    int n,a[100],s=0;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         scanf("%d",&a[i]);
     }
     for(int i=1;i<=n;i++){
-        if(a[i]==s[i]){
-            printf("%d",s[i]);
+        if(a[i]==s){
+
+            printf("%d",a[i]);
         }
         else{
             printf("-1");
