@@ -1,12 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int n,a[100],s,g[100];
+    int n,a[100],s,g[100],s=0;
     scanf("%d",&n);
-    for(int i=0;i<n;++i){
+    for(int i=1;i<=n;i++){
         scanf("%d",&a[i]);
     }
-    scanf("%d",&s);
-    printf("%d",g[s]);
+    for(int i=1;i<=n;i++){
+        if(a[i]=s){
+         printf("%d",i);
+        }
+    }
     return 0;
 }
