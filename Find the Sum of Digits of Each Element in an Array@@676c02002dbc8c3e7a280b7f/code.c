@@ -16,7 +16,7 @@ int main(){
         a[i]=a[i]/10;
         s=s+t;
         }
-        printf("%d ",s);
+        printf("%d ",abs(s));
         break;
         }
         
