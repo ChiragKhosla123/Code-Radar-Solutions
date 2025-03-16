@@ -12,7 +12,6 @@ int main(){
         s=s*10+t;
         if(a[i]==s){
             printf("YES");
-            break;
         }
         else{
             printf("NO");
