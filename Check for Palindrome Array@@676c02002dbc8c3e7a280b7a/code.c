@@ -5,7 +5,7 @@ int main(){
     for(int i=1;i<=n;i++){
         scanf("%d",&a[i]);
     }
-    s=0
+    s=0;
     for(int i=1;i<=n;i++){
         t=a[i]%10;
         a[i]=a[i]/10;
