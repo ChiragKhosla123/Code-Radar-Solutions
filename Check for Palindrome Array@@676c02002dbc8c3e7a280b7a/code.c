@@ -15,9 +15,11 @@ int main(){
         }
         if(s==a[i]){
             printf("YES");
+            break;
         }
         else{
             printf("NO");
+            break;
         }
     }
     return 0;
