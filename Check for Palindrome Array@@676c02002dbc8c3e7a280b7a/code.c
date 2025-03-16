@@ -7,8 +7,8 @@ int main(){
     }
     for(int i=1;i<=n;i++){
         s=0;
-        n=z;
-        while(0<=z){
+        a[i]=z;
+        while(0<z){
         t=a[i]%10;
         a[i]=a[i]/10;
         s=s*10+t;
