@@ -9,11 +9,11 @@ int main(){
         s=0;
         a[i]=z;
         while(0<z){
-        t=a[i]%10;
-        a[i]=a[i]/10;
+        t=z%10;
+        z=z/10;
         s=s*10+t;
         }
-        if(s==n){
+        if(s==a[i]){
             printf("YES");
         }
         else{
