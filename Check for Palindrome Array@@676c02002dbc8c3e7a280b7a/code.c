@@ -1,16 +1,19 @@
 #include<stdio.h>
 int main(){
-    int n,a[n],t,s;
+    int n,a[n],t,s,z;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         scanf("%d",&a[i]);
     }
-    s=0;
-    for(int i=1;i<=n;i++){
+    for(int i=1;i<=z;i++){
+        s=0;
+        n=z;
+        while(0<=z){
         t=a[i]%10;
         a[i]=a[i]/10;
         s=s*10+t;
-        if(a[i]==s){
+        }
+        if(s==n){
             printf("YES");
         }
         else{
