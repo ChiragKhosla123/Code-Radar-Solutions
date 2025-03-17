@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(int i=1;i<=n;i++){
-        for(int i=1;i<=a[i];i++){
+        for(int i=1;i<=n;i++){
             s=0;
             z=a[i];
             while(0<z){
