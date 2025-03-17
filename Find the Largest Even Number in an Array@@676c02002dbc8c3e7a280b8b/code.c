@@ -14,6 +14,11 @@ int main(){
             }
         }
     }
+    if(s%2==0){
     printf("%d",s);
+    }
+    else{
+        printf("-1");
+    }
     return 0;
 }
