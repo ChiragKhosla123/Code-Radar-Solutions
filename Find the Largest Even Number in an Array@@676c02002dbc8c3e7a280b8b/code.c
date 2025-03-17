@@ -13,7 +13,7 @@ int main(){
             }
         }
     }
-    if(n%2==0){
+    if(a[i]%2==0){
     printf("%d",t);
     }
     else{
