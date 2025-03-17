@@ -11,8 +11,8 @@ int main(){
             if(a[i]>s){
                 t=a[i];
             }
-             printf("%d",t);
-             break;
+            printf("%d",t);
+            break;
         }
         else{
                 printf("-1");
