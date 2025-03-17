@@ -2,7 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int a[n],s=0,t;
+    int a[n],s=-1,t;
     for(int i=1;i<=n;i++){
         scanf("%d",&a[i]);
     }
@@ -12,10 +12,6 @@ int main(){
                 t=a[i];
             }
         }
-        else{
-            
-                break;
-            }
     }
     printf("%d",t);
     return 0;
