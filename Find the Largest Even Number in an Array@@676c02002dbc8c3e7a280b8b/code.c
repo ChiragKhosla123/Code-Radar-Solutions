@@ -7,18 +7,17 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(int i=1;i<=n;i++){
-        for(i=1;i<=n;i++){
         if(a[i]%2==0){
             if(a[i]>s){
                 t=a[i];
             }
         }
-        else{
-            
-                break;
-            }
     }
+    if(n%2==0){
     printf("%d",t);
+    }
+    else{
+        printf("-1");
     }
     return 0;
 }
