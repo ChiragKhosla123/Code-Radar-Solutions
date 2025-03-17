@@ -9,10 +9,10 @@ int main(){
     for(int i=1;i<=n;i++){
         if(a[i]%2==0){
             if(a[i]>s){
-                t=a[i];
+                s=a[i];
             }
         }
     }
-    printf("%d",t);
+    printf("%d",s);
     return 0;
 }
