@@ -13,7 +13,7 @@ int main(){
                 t=z;
             }
         }
-    printf("%d",t);
+    printf("%d",a[i]);
     }
     return 0;
 }
