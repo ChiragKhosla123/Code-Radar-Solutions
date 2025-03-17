@@ -10,13 +10,12 @@ int main(){
         if(a[i]%2==0){
             if(a[i]>s){
                 t=a[i];
-                printf("%d",t);
-            
             }
-            else{
+             printf("%d",t);
+        }
+        else{
                 printf("-1");
             }
-        }
     }
     return 0;
 }
