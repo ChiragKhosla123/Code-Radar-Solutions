@@ -10,7 +10,7 @@ int main(){
         for(int i=0;i<n;i++){
             s=0;
             z=a[i];
-            while(z>10){
+            while(z<10){
                 t=z%10;
                 z=z/10;
                 s=s*10+t;
