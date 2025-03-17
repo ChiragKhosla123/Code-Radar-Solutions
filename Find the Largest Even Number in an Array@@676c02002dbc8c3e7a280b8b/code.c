@@ -12,9 +12,11 @@ int main(){
                 t=a[i];
             }
              printf("%d",t);
+             break;
         }
         else{
                 printf("-1");
+                break;
             }
     }
     return 0;
