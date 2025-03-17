@@ -8,13 +8,14 @@ int main() {
     char combined[1000] = ""; // Buffer to store concatenated number as string
     char temp[20]; // Temporary buffer for each number
 
-    // Read input numbers as strings and concatenate
+    // Read input numbers as strings and concatenate with spaces
     for (int i = 0; i < n; i++) {
-        scanf("%s", temp); // Read input as string to preserve leading zeros
+        scanf("%s", temp); // Read input as string
+        if (i > 0) strcat(combined, " "); // Add space between numbers
         strcat(combined, temp); // Append to combined string
     }
 
-    // Check if the concatenated string is a palindrome
+    // Check if the concatenated string is a palindrome (including spaces)
     int len = strlen(combined);
     int isPalindrome = 1; // Flag for palindrome check
 
