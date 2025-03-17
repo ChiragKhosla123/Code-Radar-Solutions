@@ -2,23 +2,25 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int a[n],s=0,t;
+    int a[n],s,t,z;
     for(int i=1;i<=n;i++){
         scanf("%d",&a[i]);
     }
     for(int i=1;i<=n;i++){
-        if(a[i]%2==0){
-            if(a[i]>s){
-                t=a[i];
+        s=0;
+        z=a[i];
+    for(int i=1;i<=z;i++){
+        if(z%2==0){
+            if(z>s){
+                t=z;
             }
         }
+    }
     if(a[i]%2==0){
     printf("%d",t);
-    break;
     }
     else{
         printf("-1");
-        break;
     }
     }
     return 0;
