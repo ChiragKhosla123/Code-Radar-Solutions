@@ -8,8 +8,8 @@ int main(){
     }
     for(int i=1;i<=n;i++){
         if(a[i]%2==0){
-            if(a[i]>s[i]){
-                printf("%d",a[i]);
+            if(a[i]<s[i]){
+                printf("%d",s[i]);
             }
             else{
                 printf("-1");
