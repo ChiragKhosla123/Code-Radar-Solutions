@@ -15,7 +15,7 @@ int main(){
         if(count==2){
             printf("%d",i);
         }
-        else{
+        else if(count==0){
             printf("0");
         }
     }
