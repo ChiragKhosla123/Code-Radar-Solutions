@@ -10,9 +10,11 @@ int main(){
         if(a[i]%2==0){
             if(a[i]>s){
                 printf("%d",a[i]);
+                break;
             }
             else{
                 printf("-1");
+                break;
             }
         }
     }
