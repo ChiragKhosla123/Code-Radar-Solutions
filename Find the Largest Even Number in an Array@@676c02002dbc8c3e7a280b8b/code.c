@@ -17,7 +17,7 @@ int main(){
     if(s%2==0){
     printf("%d",s);
     }
-    else{
+    else if(s%2==1){
         printf("-1");
     }
     return 0;
