@@ -1,20 +1,30 @@
-#include <stdio.h>
-#include <string.h>
-
-int main() {
-    int n;
-    scanf("%d", &n);
+#include<stdio.h>
+int main(){
+    int n,t,s,z;
+    scanf("%d",&n);
     int a[n];
-
-    // Read input numbers
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &a[i]);
+    for(int i=0;i<n;i++){
+        scanf("%d",&a[i]);
     }
+    for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++){
+            s=0;
+            z=a[i];
+            while(0<z){
+                t=z%10;
+                z=z/10;
+                s=s*10+t;
 
-    char combined[1000] = ""; // To store concatenated number as string
-    char temp[20]; // Temporary storage for each number
-
-    // Concatenate numbers into a single string
-    for (int i = 0; i < n; i++) {
-        sprintf(temp, "%d", a[i]); // Convert number to string
-        strcat(combined, temp); // Append to the combined
+            }
+            }
+            if(s==a[i]){
+                printf("YES");
+                break;
+            }
+            else{
+                printf("NO");
+                break;
+            }
+    }
+    return 0;
+}
