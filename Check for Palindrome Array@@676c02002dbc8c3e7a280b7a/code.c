@@ -3,11 +3,11 @@ int main(){
     int n,t,s,z;
     scanf("%d",&n);
     int a[n];
-    for(int i=1;i<=n;i++){
+    for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    for(int i=1;i<=n;i++){
-        for(int i=1;i<=n;i++){
+    for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++){
             s=0;
             z=a[i];
             while(0<z){
