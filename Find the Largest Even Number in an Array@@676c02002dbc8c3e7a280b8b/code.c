@@ -12,12 +12,12 @@ int main(){
                 t=a[i];
             }
         }
-    }
     if(a[i]%2==0){
     printf("%d",t);
     }
     else{
         printf("-1");
+    }
     }
     return 0;
 }
