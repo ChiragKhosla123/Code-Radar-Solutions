@@ -13,13 +13,11 @@ int main(){
                 t=z%10;
                 z=z/10;
                 s=s*10+t;
-
-            }
-            if(s==a[i]){
-                count++;
-}
-}
-printf("%d",count);
-
+                }
+                if(s==a[i]){
+                    count++;
+                }
+    }
+    printf("%d",count);
     return 0;
 }
