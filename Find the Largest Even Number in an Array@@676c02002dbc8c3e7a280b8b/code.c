@@ -19,6 +19,7 @@ int main(){
     }
     else if(s%2==1 ||s%2==-1){
         printf("-1");
+        break;
     }
     return 0;
 }
