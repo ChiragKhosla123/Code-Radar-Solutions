@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,count;
+    int n,count,pcount=0;
     scanf("%d",&n);
     int a[n];
     for(int i=1;i<=n;i++){
@@ -14,11 +14,9 @@ int main(){
             }
         }
         if(count==2){
-            printf("%d",count);
-        }
-        else{
-            printf("0");
+            pcount++;
         }
     }
+    printf("%d",pcount);
     return 0;
 }
