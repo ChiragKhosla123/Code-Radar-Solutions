@@ -17,6 +17,7 @@ int main(){
     }
     if(a[i]%2==0){
     printf("%d",s);
+    break;
     }
     else if(a[i]%2==1 ||a[i]%2==-1){
         printf("-1");
