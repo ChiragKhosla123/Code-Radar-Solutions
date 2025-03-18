@@ -8,18 +8,20 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(int i=1;i<=abs(n);i++){
+    for(int i=1;i<=abs(n);i++){
         if(a[i]%2==0){
             if(a[i]>s){
                 s=a[i];
             }
         }
     }
-    if(s%2==0){
+    if(a[i]%2==0){
     printf("%d",s);
     }
-    else if(s%2==1 ||s%2==-1){
+    else if(a[i]%2==1 ||a[i]%2==-1){
         printf("-1");
         break;
+    }
     }
     return 0;
 }
