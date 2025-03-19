@@ -15,12 +15,12 @@ int main(){
             }
         }
     }
-    if(a[i]%2==0){
-    printf("%d",s);
+    if(s==-10){
+    printf("-1");
     break;
     }
-    else if(a[i]%2==1 ||a[i]%2==-1){
-        printf("-1");
+    else{
+        printf("%d",s);
         break;
     }
     }
