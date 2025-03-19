@@ -8,10 +8,9 @@ int main(){
     }
     for(int i=1;i<=n;i++){
         int s=0;
-        for(int j=1;j<=n;j++){
-            s=s+j;
+        for(int i=1;i<=n;j++){
+            s=s+i;
             printf("%d ",s);
-            break;
         }
     }
     return 0;
