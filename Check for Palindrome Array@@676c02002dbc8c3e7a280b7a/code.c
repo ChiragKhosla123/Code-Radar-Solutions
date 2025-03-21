@@ -7,9 +7,9 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(int i=0;i<n;i++){
-        for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
             s=0;
-            z=a[i];
+            z=a[j];
             while(0<z){
                 t=z%10;
                 z=z/10;
@@ -17,7 +17,7 @@ int main(){
 
             }
             }
-            if(s==a[i]){
+            if(s==a[j]){
                 printf("YES");
                 break;
             }
