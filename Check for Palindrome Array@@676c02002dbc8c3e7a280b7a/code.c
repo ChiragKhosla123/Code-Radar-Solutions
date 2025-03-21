@@ -7,20 +7,19 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(int i=0;i<n;i++){
-        s=0;
+        s=1;
         for(int j=n-1;j>=0;j--){
-            if(a[i]==a[j]){
-                s=a[j];
-            }
-            }
-            if(s==a[i]){
-                printf("YES");
+            if(a[i]!=a[j]){
+                s=0;
                 break;
+            }
+            }
+    }
+    if(s){
+                printf("YES");
             }
             else{
                 printf("NO");
-                break;
             }
-    }
     return 0;
 }
