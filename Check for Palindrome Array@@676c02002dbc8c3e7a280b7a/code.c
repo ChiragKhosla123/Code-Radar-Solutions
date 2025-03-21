@@ -14,11 +14,11 @@ int main(){
             }
             }
     }
-    if(s){
-                printf("YES");
+    if(s=0){
+                printf("NO");
             }
             else{
-                printf("NO");
+                printf("YES");
             }
     return 0;
 }
