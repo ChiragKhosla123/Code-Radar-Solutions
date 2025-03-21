@@ -16,14 +16,14 @@ int main(){
                 s=s*10+t;
 
             }
-            if(s==a[j]){
+            }
+            if(s==a[i]){
                 printf("YES");
                 break;
             }
             else{
                 printf("NO");
                 break;
-            }
             }
     }
     return 0;
