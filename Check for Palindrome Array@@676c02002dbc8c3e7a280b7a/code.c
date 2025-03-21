@@ -10,9 +10,11 @@ int main(){
         for(int j=n-1;j>=0;j--){
             if(a[i]==a[j]){
                 printf("Yes");
+                break;
             }
             else{
                 printf("No");
+                break;
             }
             }
     }
