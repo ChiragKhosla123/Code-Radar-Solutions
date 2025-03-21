@@ -10,15 +10,15 @@ int main(){
         s=0;
         for(int j=n-1;j>=0;j--){
             if(a[i]==a[j]){
-                s=1;
+                s=a[j];
             }
             }
-    }
-    if(s=0){
-                printf("NO");
-            }
-            else{
+            if(s==a[i]){
                 printf("YES");
             }
+            else{
+                printf("NO");
+            }
+    }
     return 0;
 }
