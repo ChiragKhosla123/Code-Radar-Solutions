@@ -7,24 +7,14 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-            s=0;
-            z=a[j];
-            while(0<z){
-                t=z%10;
-                z=z/10;
-                s=s*10+t;
-
-            }
-            }
-            if(s==a[i]){
-                printf("YES");
-                break;
+        for(int j=n-1;j<0;j--){
+            if(a[i]=a[j]){
+                printf("Yes");
             }
             else{
-                printf("NO");
-                break;
+                printf("No")
             }
+            }//102010
     }
     return 0;
 }
