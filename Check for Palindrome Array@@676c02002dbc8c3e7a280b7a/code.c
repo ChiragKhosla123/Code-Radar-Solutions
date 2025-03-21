@@ -8,7 +8,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         for(int j=n-1;j<0;j--){
-            if(a[i]=a[j]){
+            if(a[i]==a[j]){
                 printf("Yes");
             }
             else{
