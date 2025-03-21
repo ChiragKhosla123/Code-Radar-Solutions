@@ -16,7 +16,6 @@ int main(){
                 s=s*10+t;
 
             }
-            }
             if(s==a[j]){
                 printf("YES");
                 break;
@@ -24,6 +23,7 @@ int main(){
             else{
                 printf("NO");
                 break;
+            }
             }
     }
     return 0;
