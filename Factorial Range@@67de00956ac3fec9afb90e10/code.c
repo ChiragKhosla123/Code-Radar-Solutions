@@ -1,5 +1,4 @@
 #include<stdio.h>
-int factorialRange(int end);
 
 int factorialRange(int end){
     if(end==1||end==0 ){
