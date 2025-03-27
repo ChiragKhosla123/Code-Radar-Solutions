@@ -1,7 +1,7 @@
 #include<stdio.h>
 void printPrimesInRange(int a,int b);
 void printPrimesInRange(int a,int b){
-    int found;
+    int found=0;
     for(int i=a;i<=b;i++){
         int count=0;
         int t=i;
