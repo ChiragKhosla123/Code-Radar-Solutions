@@ -9,8 +9,13 @@ int printPrimesInRange(int a,int b){
             count++;
         }
     }
-    if(count==2){
-        printf("%d ",i);
+    switch(count){
+        case 2:
+        printf("%d",i);
+        break;
+        default:
+        printf("No prime numbers");
+        break;
     }
     }
 }
