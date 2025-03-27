@@ -9,7 +9,7 @@ int printPrimesInRange(int a,int b){
         }
     }
     if(count==2){
-        return i;
+        return printPrimesInRange(i);
     }
     }
 }
