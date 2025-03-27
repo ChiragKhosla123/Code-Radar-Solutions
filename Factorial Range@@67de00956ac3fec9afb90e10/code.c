@@ -1,10 +1,7 @@
 #include<stdio.h>
 int factorialRange(int start,int end);
-
-
-    if(end==1||end==0 ){
-        return 1;
-    }
-    else{
-        return end*(factorialRange(end-1));
-    }
+int s=1
+for(int i=start;i<=end;i++){
+    s=s*i
+}
+printf("%d",s);
