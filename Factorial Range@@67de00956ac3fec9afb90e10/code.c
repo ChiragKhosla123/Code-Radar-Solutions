@@ -1,5 +1,5 @@
 #include<stdio.h>
-int factorialRange(start,end);
+int factorialRange(int start,int end);
 int main(){
     int start,end;
     scanf("%d%d",&start,&end);
