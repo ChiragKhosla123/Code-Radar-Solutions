@@ -1,7 +1,7 @@
 #include <stdio.h>
 void fibonacciSeries(int n);
 void fibonacciSeries(int n){
-    int f0=0,f1=1,fib;
+    int f0=0,f1=1,fib=0;
     printf("%d %d ",f0,f1);
     for(int i=3;i<n;i++){
         f0=f1;
