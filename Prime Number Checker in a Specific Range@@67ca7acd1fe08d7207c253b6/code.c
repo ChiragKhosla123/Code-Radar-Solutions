@@ -1,6 +1,7 @@
 #include<stdio.h>
-int printPrimesInRange(int a,int b);
-int printPrimesInRange(int a,int b){
+void printPrimesInRange(int a,int b);
+void printPrimesInRange(int a,int b){
+    int found;
     for(int i=a;i<=b;i++){
         int count=0;
         int t=i;
@@ -9,13 +10,13 @@ int printPrimesInRange(int a,int b){
             count++;
         }
     }
-    switch(count){
-        case 2:
-        printf("%d",i);
-        break;
-        default:
+    if(count==2){
+        printf("%d ",i);
+        found=1;
+    }
+    }
+    if(!found){
         printf("No prime numbers");
-        break;
     }
-    }
+    
 }
