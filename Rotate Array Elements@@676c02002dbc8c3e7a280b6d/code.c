@@ -15,7 +15,7 @@ int main() {
     int r_arr[n];
 
     for ( int i = 0; i<k; i++){
-        for ( int j = k; k<a[n]; j++ ){
+        for ( int j = k; j<k; j++ ){
             r_arr[i] = arr[j];
         }
     }
