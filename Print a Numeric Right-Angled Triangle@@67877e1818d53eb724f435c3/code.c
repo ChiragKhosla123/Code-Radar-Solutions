@@ -7,9 +7,6 @@ int main(){
             if(i+j>=n+1){
                 printf("%d ",j);
             }
-            else{
-                printf(" ");
-            }
         }
         printf("\n");
     }
