@@ -4,23 +4,23 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int a[n];
+    int a[n],freq[n];
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
+        freq[i]=-1;//uncounted
     }
     for(int i=0;i<n;i++){
         int count=0;
+        if(freq[i]!=-1){
+            continue;
+        }
         for(int j=i+1;j<n;j++){
             if(a[i]==a[j]){
                 count++;
+                freq[j]=0;//counted
             }
         }
-        if(count==0){
-            continue;
-        }
-        else{
-            printf("%d %d\n",a[i],count);
-        }
+        printf("%d %d\n",a[i],count);
     }
     return 0;
 }
