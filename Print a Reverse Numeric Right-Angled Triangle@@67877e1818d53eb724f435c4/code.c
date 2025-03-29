@@ -1,9 +1,4 @@
-/*      0 1 2 3               n=4-1
-    0   1 2 3 4
-    1   1 2 3
-    2   1 2
-    3   1
-*/
+
 #include<stdio.h>
 int main(){
     int n;
