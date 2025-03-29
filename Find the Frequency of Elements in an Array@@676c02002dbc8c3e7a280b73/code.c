@@ -10,7 +10,7 @@ int main() {
         freq[i]=-1;//uncounted
     }
     for(int i=0;i<n;i++){
-        int count=0;
+        int count=1;
         if(freq[i]!=-1){
             continue;
         }
