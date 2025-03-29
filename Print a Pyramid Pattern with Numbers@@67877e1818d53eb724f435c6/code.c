@@ -9,17 +9,15 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
-        for(int k=1;k<=n;k++){
-        for(int j=1;j<=n;j++){
+        for(int j=n;j>=1;j++){
             if(i+j>=n+1){
-                printf("%d ",k);
+                printf("%d ",j);
             }
             else{
                 printf(" ");
             }
         }
         printf("\n");
-    }
     }
     return 0;
 }
