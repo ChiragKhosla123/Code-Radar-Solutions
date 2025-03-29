@@ -10,7 +10,7 @@ int main(){
     for(int i=1;i<=n;i++){
         for(int j='A';j<=i;j++){
             if(i==j || j<i){
-                printf("%c",j);
+                printf("%d",j);
             }
             else{
                 printf(" ");
