@@ -7,16 +7,17 @@ int main() {
     ptr=(int*)malloc(n*sizeof(int));
     if(ptr==NULL){
         printf("Insufficient memory allocates");
+        return 1;
     }
     int ecount=0,ocount=0;
     for(int i=0;i<n;i++){
         scanf("%d",&ptr[i]);
     }
     for(int i=0;i<n;i++){
-        if(abs(*ptr[i])%2==0){
+        if(abs(ptr[i])%2==0){
             ecount++;
         }
-        if(abs(*ptr[i])%2==1){
+        if(abs(ptr[i])%2==1){
             ocount++;
         }
     }
