@@ -21,7 +21,7 @@ int main() {
             t=ptr[i];
         }
     }
-    printf("%d %d",s,t);
+    printf("%d %d",t,s);
     free(ptr);
     return 0;
 }
