@@ -10,13 +10,13 @@ int main() {
     }
     int ecount=0,ocount=0;
     for(int i=0;i<n;i++){
-        scanf("%d",&ptr[i]);
+        scanf("%d",&ptr);
     }
     for(int i=0;i<n;i++){
-        if(abs(ptr[i])%2==0){
+        if(abs(*ptr)%2==0){
             ecount++;
         }
-        if(abs(ptr[i])%2==1){
+        if(abs(*ptr)%2==1){
             ocount++;
         }
     }
