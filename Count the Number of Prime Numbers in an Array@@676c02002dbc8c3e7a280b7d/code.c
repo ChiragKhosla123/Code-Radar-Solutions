@@ -1,23 +1,22 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
 int main(){
-    int ptr,n;
+    int n,count,pcount=0;
     scanf("%d",&n);
-    ptr=(int*)alloc(n,sizeof(int));
-    if(ptr==NULL){
-        printf("Insufficient memory allocated");
-        return 1;
+    int a[n];
+    for(int i=1;i<=n;i++){
+        scanf("%d",&a[i]);
     }
-    for(int i=0;i<n;i++){
-        scanf("%d",&ptr[i]);
-    }
-    int pcount=0;
-    for(int i=0;i<n;i++){
-        if(ptr[i]%i==0){
+    for(int i=1;i<=n;i++){
+        count=0;
+        for(int j=1;j<=a[i];j++){
+            if(a[i]%j==0){
+                count++;
+            }
+        }
+        if(count==2){
             pcount++;
         }
     }
     printf("%d",pcount);
-    free(ptr);
     return 0;
 }
