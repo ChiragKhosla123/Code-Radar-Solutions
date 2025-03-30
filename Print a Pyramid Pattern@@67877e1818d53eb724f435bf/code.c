@@ -4,7 +4,7 @@ void main(){
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         for(int j=0;j<((2*n)-1);j++){
-            if(i+j>=n-1){
+            if(i+j>=2n-1-i){
             printf("*");
             }
             else{
