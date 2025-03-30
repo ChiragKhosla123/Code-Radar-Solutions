@@ -1,19 +1,27 @@
 #include <stdio.h>
-
+#include <math.h>
+#include <stdlib.h>
 int main() {
-    int a[100],b,s,n;
-    scanf("%d",&b);
-    scanf("%d", &a[0]);
-    s=n=a[0];
-    for(int i=1;i<b;++i){
-        scanf("%d",&a[i]);
-        if(a[i]<s){
-            s=a[i];
+    int *ptr,n;
+    scanf("%d",&n);
+    ptr=(int*)malloc(n*sizeof(int));
+    if(ptr==NULL){
+        printf("Insufficient memory allocation");
+        return 1;
+    }
+    for(int i=0;i<n;i++){
+        scanf("%d",&ptr[i]);
+    }
+    int s=ptr[0],t=ptr[0];
+    for(int i=0;i<n;i++){
+        if(s<ptr[i]){
+            s=ptr[i];
         }
-        else if(a[i]>n){
-            n=a[i];
+        if(t>ptr[i]){
+            t=ptr[i];
         }
     }
-    printf("%d %d",s,n);
+    printf("%d %d",s,t);
+    free(ptr);
     return 0;
 }
