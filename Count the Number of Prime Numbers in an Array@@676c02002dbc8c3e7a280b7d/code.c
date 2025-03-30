@@ -18,5 +18,6 @@ int main(){
         }
     }
     printf("%d",pcount);
+    free(ptr);
     return 0;
 }
