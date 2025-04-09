@@ -11,11 +11,16 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d%s%f",&s1[i].roll_no,s1[i].name,&s1[i].marks);
     }
-    int s=0;
     for(int i=0;i<n;i++){
-        if(s1[i].marks>s){
-            printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",s1[i].roll_no,s1[i].name,&s1[i].marks);
+        int s=0,t=0,y=0;
+        for(int j=0;j<n;j++){
+        if(s1[j].marks>s){
+            s=s1[j].marks;
+            t=s1[j].roll_no;
+            y=s1[i].name;
         }
+    }
+    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",t,y,s);
     }
     return 0;
 }
