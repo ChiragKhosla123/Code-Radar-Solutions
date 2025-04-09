@@ -21,7 +21,7 @@ int main(){
             y[i]=s1[i].name;
         }
     }
-    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",t,y,s);
+    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",t,y[i],s);
     }
     return 0;
 }
