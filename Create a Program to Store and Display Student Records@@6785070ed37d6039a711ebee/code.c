@@ -5,7 +5,7 @@ struct class{
     float marks;
 };
 int main(){
-    struct class s1[50];
+    struct class s1[3];
     int n;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
