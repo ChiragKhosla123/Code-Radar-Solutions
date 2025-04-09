@@ -17,7 +17,7 @@ int main(){
         if(s1[j].marks>s){
             s=s1[j].marks;
             t=s1[j].roll_no;
-            y=s1[i].name;
+            y=s1[j].name;
         }
     }
     printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",t,y,s);
