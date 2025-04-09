@@ -13,12 +13,12 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int s=0,t=0;
-        char y[20];
+        char y[n];
         for(int j=0;j<i;j++){
         if(s1[i].marks>s){
             s=s1[i].marks;
             t=s1[i].roll_no;
-            y=s1[i].name;
+            y[i]=s1[i].name;
         }
     }
     printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",t,y,s);
