@@ -13,7 +13,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int s=0,t=0,y=0;
-        for(int j=0;j<n;j++){
+        for(int j=0;j<i;j++){
         if(s1[j].marks>s){
             s=s1[j].marks;
             t=s1[j].roll_no;
