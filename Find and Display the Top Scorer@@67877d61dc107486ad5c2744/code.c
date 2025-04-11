@@ -17,12 +17,12 @@ int main(){
         char y[0];
         for(int j=0;j<i;j++){
         if(s1[i].marks>s){
-            s=s1[i].marks;
-            t=s1[i].roll_no;
+            s[i]=s1[i].marks;
+            t[i]=s1[i].roll_no;
             y[i]=s1[i].name;
         }
     }
-    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",t,y[i],s);
+    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",t,y,s);
     }
     return 0;
 }
