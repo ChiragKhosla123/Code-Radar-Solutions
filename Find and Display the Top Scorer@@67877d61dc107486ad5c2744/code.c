@@ -16,10 +16,10 @@ int main(){
         int t[0];
         char y[0];
         for(int j=0;j<i;j++){
-        if(s1[i].marks>s){
-            s[i]=s1[i].marks;
-            t[i]=s1[i].roll_no;
-            y[i]=s1[i].name;
+        if(s1[i].marks>s[i]){
+            s=s1[i].marks;
+            t=s1[i].roll_no;
+            y=s1[i].name;
         }
     }
     printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",t,y,s);
