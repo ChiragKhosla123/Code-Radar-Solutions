@@ -13,7 +13,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int s=0,t=0;
-        char y[1]={0};
+        char y[0];
         for(int j=0;j<i;j++){
         if(s1[i].marks>s){
             s=s1[i].marks;
